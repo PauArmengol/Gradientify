@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import Sun from "../img/sun.gif";
 import Moon from "../img/moon.gif";
-import Logo from "../img/logo.png";
+//import Logo from "../img/logo.png";
 import { ColorContext } from "../Context/ContextColor";
 
 function Home() {
@@ -22,7 +22,7 @@ function Home() {
     <div>
       <div className="container-logo">
         <div className="container-logo">
-          <img className="logo" src={Logo} alt="logo" />
+          {/* <img className="logo" src={} alt="logo" /> */}
           <h1
             style={{ color: changeBody === false ? "white" : "black" }}
             className="logo"
