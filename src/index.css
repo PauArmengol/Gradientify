@@ -1,0 +1,254 @@
+body {
+  background: rgb(240, 233, 253);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-generator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 24rem;
+}
+
+.container-generator-text {
+  width: 40rem;
+  padding: 0.1rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.container-text-generator {
+  width: 40rem;
+}
+
+.title-generator {
+  font-weight: 300;  
+}
+
+select {
+  border: none;
+  height: 2rem;
+  width: 7rem;
+  padding-left: 0.5rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+option {
+  cursor: pointer;
+}
+
+.changebody {
+  background-color: white;
+  border-radius: 1rem;
+  height: 2rem;
+  width: 5.5rem;
+  border: 2px solid rgb(83, 83, 83);
+  cursor: pointer;
+}
+
+.container-logo-img {
+  display: flex;
+}
+
+.logo {
+  width:3.5rem;
+}
+
+.changebody:hover {
+  border: 2px solid dodgerblue;
+}
+
+.icon-body {
+  width: 1.7rem;
+}
+
+.container-icon-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.logo {
+  display: flex;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 4rem;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 200;
+}
+
+.container-warp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-col {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.container-background {
+  cursor: pointer;
+  width: 15rem;
+  height: 20rem;
+  border-radius: 1rem  1rem 0 0;
+}
+
+.Bg-title {
+  writing-mode: vertical-rl;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 4rem;
+  border-radius: 0  0 1rem  1rem;
+  cursor: pointer;
+  width: 15rem;
+}
+
+.footer-title {
+  margin-left: 1rem;
+}
+
+.icons {
+  margin-left: 1rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  cursor: pointer;
+}
+
+.copie-modal {
+  width: 100%;
+  margin-top: -30rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  position: fixed;
+}
+
+.icons-modal {
+  width: 2rem;
+  margin-right: 0.2rem;
+}
+
+.copie-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 3rem;
+  background-color: white;
+  color: rgb(62, 62, 62);
+  border: 1px solid rgb(52, 52, 52);
+  border-radius: 1rem;
+  margin-left: 1rem;
+}
+
+
+@media (max-width: 768px) {
+
+.container-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: -1rem;
+}
+
+.generator-text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-generator-text {
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  padding: 1px 5px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.container-text-generator {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-top: -1rem;
+}
+
+.title-generator {
+  font-weight: 600; 
+  font-size: 1rem;
+  text-align: center;
+}
+
+.container-select {
+  display: flex;
+  justify-content: center;
+}
+
+select {
+  border: none;
+  height: 2rem;
+  width: 7rem;
+  padding-left: 0.5rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.container-warp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 1.7rem;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 200;
+} 
+
+.copie-title {
+  margin-left: 0;
+}
+
+.container-logo{
+  margin: 0 0;
+}
+
+}
