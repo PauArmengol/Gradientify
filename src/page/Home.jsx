@@ -27,7 +27,7 @@ function Home() {
             style={{ color: changeBody === false ? "white" : "black" }}
             className="logo"
           >
-            LinearGradients
+            Gradientify
           </h1>
         </div>
         <button className="changebody" onClick={handleChangeBody}>
